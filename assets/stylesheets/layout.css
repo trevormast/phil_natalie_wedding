@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1  {
   font-size:  34px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -27,6 +28,12 @@ p {
 nav {
   margin: 0 auto;
   padding:  15px;
+}
+
+hr {
+  border-top: 3px solid #666;
+  max-width:  30%;
+  margin:  10px auto;
 }
 
 #nav-links > li {
