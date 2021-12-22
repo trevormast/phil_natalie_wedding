@@ -17,8 +17,20 @@ h1  {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size:  28px;
+}
+
 h3 {
-  font-size:  16px;
+  font-size:  24px;
+}
+
+h4 {
+  font-size: 18px ;
+}
+
+h5 {
+  font-size: 14px ;
 }
 
 p {
@@ -45,6 +57,46 @@ hr {
   color: #000;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+.col {
+  padding: 15px;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-75 {
+  width:  75%;
+}
+
+.col-66 {
+  width: 66%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-third {
+  width: 33%;
+}
+
+.col-fourth {
+  width:  25%;
+}
+
+.col-fifth {
+  width:  20%;
+}
+
 .nav-inner {
   display: flex;
   flex-direction: row;
@@ -54,11 +106,37 @@ hr {
 
 .content {
   margin:  15px auto;
+  margin-bottom:  45px;
   max-width:  1280px;
+  padding: 15px;
+}
+
+.full-width {
+  max-width:  100%;
 }
 
 .page-header {
   text-align: center;
 }
 
-/*UTILITIES*/
+.text-center { text-align: center; }
+
+.mb-5 {
+  margin-bottom:  5px;
+}
+
+.mb-10 {
+  margin-bottom:  10px;
+}
+
+.mb-15 {
+  margin-bottom:  15px;
+}
+
+.mb-20 {
+  margin-bottom:  20px;
+}
+
+.bb-black {
+  border-bottom: 1px solid black;
+}
